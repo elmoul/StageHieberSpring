@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+	 <class name="src.dao.profile.Profile" table="PROFILE">
+	 	<id name="id" column="ID_PROFILE">
+	 		<generator class="native"></generator>
+	 	</id>
+	 	<property name="libelle" column="LIBELLE"></property>
+	 	
+	 </class>
+  
+</hibernate-mapping>
