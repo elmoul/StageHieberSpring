@@ -31,6 +31,11 @@ public class UserController {
 	@RequestMapping(value="/")
 	public String pageIndex2(Model model) {
 		System.out.println("h2!");
+		// ligne ajouter
+		
+		System.out.println("Hello from Github");
+		
+		//
 		model.addAttribute("listUsers", service.getAllUsers());
 		model.addAttribute("page", "users");
 		return "Users";
