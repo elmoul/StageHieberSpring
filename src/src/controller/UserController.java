@@ -31,9 +31,9 @@ public class UserController {
 	@RequestMapping(value="/")
 	public String pageIndex2(Model model) {
 		System.out.println("h2!");
-		// ligne ajouter
+		// ligne ajouter par master
 		
-		System.out.println("Hello from Github");
+		System.out.println("Hello from Github its master");
 		
 		//
 		model.addAttribute("listUsers", service.getAllUsers());
